@@ -1,0 +1,243 @@
+%------------------------
+% Ethan's Résumé Template
+% Author: necusjz
+% License: CC-BY-4.0
+%------------------------
+\documentclass[letterpaper,10pt]{article}
+\usepackage{fontawesome5}
+\usepackage{graphicx}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[colorlinks=true,urlcolor=blue]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage{etoolbox}
+\usepackage{tikz}
+\input{glyphtounicode}
+
+\definecolor{linkcolor}{RGB}{0, 0, 225} % Blue for links
+
+% font options
+\usepackage[sc]{mathpazo}
+\linespread{1.05}  % palladio needs more leading (space between lines)
+\usepackage[T1]{fontenc}
+
+\pagestyle{fancy}
+\fancyhf{}  % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\setlength{\footskip}{5pt}
+
+% sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+% ensure that generated pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% custom commands
+\newcommand{\cvitem}[1]{
+  \item\small{
+    {#1\vspace{-2pt}}
+  }
+}
+
+\newcommand{\cvheading}[4]{
+  \vspace{-6pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \small#3 & \small #4 \\
+    \end{tabular*}\vspace{-9pt}
+}
+
+\newcommand{\cvheadingstart}{\begin{itemize}[leftmargin=0in, label={}]}
+\newcommand{\cvheadingend}{\end{itemize}}
+\newcommand{\cvitemstart}{\begin{itemize}\justifying}
+\newcommand{\cvitemend}{\end{itemize}\vspace{-6pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\footnotesize$\bullet$}}$}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  urlcolor=blue
+}
+
+\begin{document}
+\vspace{-500pt}
+
+% ---------------- CONTACT INFORMATION ----------------
+\begin{center}
+
+  \textbf{\LARGE\scshape YOUR FULL NAME} \\
+  \vspace{2pt}\small
+
+  \faMobile* (+91) XXXXXXXXXX
+  \
+  \faMapMarker* Your City, Your Country
+
+  \vspace{2pt}
+
+  \href{mailto:your.email@example.com}{your.email@example.com \faEnvelope}
+  \vspace{2pt}
+  \
+  \href{https://github.com/yourusername}{GitHub: \faGithub}
+  \
+  \href{https://www.linkedin.com/in/yourprofile/}{LinkedIn: \faLinkedin}
+  \
+  \href{https://yourportfolio.example.com/}{Portfolio: \faGlobe}
+  \
+
+\end{center}
+
+\vspace{-20pt}
+
+% ---------------- EDUCATION ----------------
+\section{Education}
+\cvheadingstart
+\vspace{5pt}
+  \cvheading
+    {Your University Name}{City, State}
+    {Degree : Branch : CGPA X.X}{20XX - Present}
+  \cvheading
+    {Your School Name}{City, State}
+    {Intermediate: XX\%}{20XX}
+
+\cvheadingend
+\vspace{-15pt}
+
+% ---------------- EXPERIENCE ----------------
+\section*{Experiences}
+\cvheadingstart
+
+\cvitem{\textbf{Your Role, Company Name}}\href{https://company-one.example.com/}{(view \faExternalLink*)} \hfill {(Mon'YY - Mon'YY)}
+\vspace{-7pt}
+\cvitemstart
+\cvitem {Built or developed X using technologies A and B, which achieved a measurable result.}
+\cvitem {Implemented Y, reducing Z by XX\%.}
+\cvitem {Integrated tool or API to deliver a specific outcome.}
+\cvitemend
+\vspace{-4pt}
+
+\cvitem{\textbf{Your Role, Company Name}} \href{https://company-two.example.com/}{(view \faExternalLink*)}\hfill {(Mon'YY - Mon'YY)}
+\vspace{-4pt}
+\cvitemstart
+\cvitem {Built a system using technologies A and B to solve a specific problem.}
+\cvitem {Developed a feature or workflow that improved a specific metric by XX\%.}
+\cvitemend
+\vspace{-4pt}
+
+\cvitem{\textbf{Your Role, Company Name}}\href{https://company-three.example.com/}{(view \faExternalLink*)} \hfill {(Mon'YY - Mon'YY)}
+\vspace{-4pt}
+\cvitemstart
+\cvitem {Implemented APIs or features using technology A.}
+\cvitem {Optimized database queries or performance for a specific part of the product.}
+\cvitemend
+\vspace{-8pt}
+
+\cvheadingend
+\vspace{-10pt}
+
+% ---------------- PROJECTS ----------------
+\section*{Projects}
+\cvheadingstart
+
+\cvitem{\textbf{PROJECT ONE NAME}} \href{https://project-one-live.example.com}{\textcolor{linkcolor}{[Live]}}
+\href{https://github.com/yourusername/project-one}{\textcolor{linkcolor}{[GitHub]}}
+\hfill{Month,YYYY}
+\vspace{-7pt}
+\cvitem{ $\ \diamond\ $One line on what you built and the main technologies used.}
+\vspace{-7pt}
+\cvitem{ $\ \diamond\ $One line on a key feature, challenge solved, or result.}
+\vspace{-7pt}
+\cvitemstart
+  \cvitem{\textbf{Tech Used}- Technology A, Technology B, Technology C, Technology D}
+\cvitemend
+\vspace{-2pt}
+
+\cvitem{\textbf{PROJECT TWO NAME}}
+\href{https://project-two-live.example.com/}{\textcolor{linkcolor}{[Live]}}
+\href{https://github.com/yourusername/project-two}{\textcolor{linkcolor}{[GitHub]}}
+\hfill{Month,YYYY}
+\vspace{-7pt}
+\cvitem{ $\ \diamond\ $One line on what you built and the main technologies used.}
+\vspace{-7pt}
+\cvitem{ $\ \diamond\ $One line on a key feature, challenge solved, or result.}
+\vspace{-7pt}
+\cvitemstart
+  \cvitem{\textbf{Tech Used}. Technology A, Technology B, Technology C, Technology D}
+\cvitemend
+\vspace{-2pt}
+
+\cvitem{\textbf{PROJECT THREE NAME}}
+\href{https://project-three-live.example.com/}{\textcolor{linkcolor}{[Live]}}
+\href{https://github.com/yourusername/project-three}{\textcolor{linkcolor}{[GitHub]}}
+\hfill{Month,YYYY}
+\vspace{-5pt}
+\cvitem{ $\ \diamond\ $One line on what you built and the main technologies used.}
+\vspace{-5pt}
+\cvitemstart
+\cvitem{\textbf{Tech Used-} Technology A, Technology B, Technology C}
+\cvitemend
+\vspace{-2pt}
+
+\cvheadingend
+\vspace{-15pt}
+
+% ---------------- SKILLS ----------------
+\section*{Skills Summary}
+\vspace{-2pt}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+
+Languages: & Language 1 | Language 2 | Language 3 | Language 4
+\\
+Database: & Database 1 | Database 2 | Database 3
+\\
+Frameworks: & Framework 1 | Framework 2 | Framework 3 | Framework 4
+\\
+Concepts: & Data Structures and Algorithms | OOP | OS | DBMS
+\\
+Soft Skills: & Skill 1 | Skill 2 | Skill 3
+\\
+Tools: & Git | GitHub | Postman | Tool 4 | Tool 5
+\end{tabular}\\
+\vspace{-9pt}
+
+% ---------------- ACHIEVEMENTS ----------------
+\section{Achievements}
+\cvitemstart
+\vspace{1pt}
+  \cvitem{Completed \textbf{Course or Certification Name}. \href{https://certificate-link.example.com}{(view \faExternalLink*)}}
+\cvitemend
+\vspace{-9pt}
+\cvitemstart
+  \cvitem{Secured \textbf{rank or result} in a coding contest, hackathon, or competition.}
+\cvitemend
+\vspace{-9pt}
+\cvitemstart
+  \cvitem{Solved \textbf{XXX+} problems on a coding platform.}
+\cvitemend
+
+\end{document}
