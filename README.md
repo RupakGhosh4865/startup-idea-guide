@@ -5,6 +5,7 @@ Reels ke full detail versions — phone pe padhne ke liye, 11 pages each.
 <p align="center">
   <img src="pages/page-01.jpg" alt="Startup Idea guide cover" width="260" />
   <img src="rag-to-production/pages/page-01.jpg" alt="RAG to Production guide cover" width="260" />
+  <img src="ai-agent-production/pages/page-01.jpg" alt="AI Agent Demo to Production guide cover" width="260" />
 </p>
 
 ## 📄 Guides
@@ -13,6 +14,7 @@ Reels ke full detail versions — phone pe padhne ke liye, 11 pages each.
 | --- | --- | --- |
 | **Startup Idea se Paying Customer tak** — pehle market, phir code | [Open PDF](Billu-Bhaiya-Startup-Idea-Guide.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/) |
 | **RAG Demo se Production tak** — Evals · LLMOps · Guardrails · Agents | [Open PDF](rag-to-production/Billu-Bhaiya-RAG-to-Production-Guide.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/rag-to-production/) |
+| **AI Agent: Demo se Production tak** — 6 fixes + copy-paste code | [Open PDF](ai-agent-production/Billu-Bhaiya-AI-Agent-Production-Guide.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/ai-agent-production/) |
 
 ## 1 · Startup Idea se Paying Customer tak
 
@@ -50,6 +52,26 @@ Reels ke full detail versions — phone pe padhne ke liye, 11 pages each.
   <img src="rag-to-production/pages/page-04.jpg" alt="Step 2: Retrieval vs faithfulness" width="240" />
   <img src="rag-to-production/pages/page-06.jpg" alt="Step 4: Eval loop and experiment log" width="240" />
   <img src="rag-to-production/pages/page-09.jpg" alt="Step 7: Agent ya workflow" width="240" />
+</p>
+
+## 3 · AI Agent: Demo se Production tak
+
+"Laptop band karo" — agar agent bhi band ho gaya, toh woh demo hai. 6 fixes, har ek ke saath copy-paste code:
+
+| # | Fix | Kya milta hai |
+| --- | --- | --- |
+| 1 | **Memory** | LangGraph + Postgres checkpointer (stable `thread_id`), PostgresStore, pgvector |
+| 2 | **Queue** | FastAPI turant `job_id` → Redis → Celery worker (`acks_late`, idempotent tasks) |
+| 3 | **Reliability** | Tenacity retries, exponential backoff + jitter, Stripe idempotency key, human-in-the-loop |
+| 4 | **Cost** | Claude prompt caching, Haiku vs Sonnet routing, LiteLLM budgets |
+| 5 | **Security** | Prompt injection (OWASP LLM Top 10), Pydantic, least privilege, E2B sandbox, Secrets Manager |
+| 6 | **Evals + Observability** | Langfuse traces, promptfoo in GitHub Actions → merge block |
+| ★ | **Deploy** | Docker + Railway (API aur worker alag scale), "laptop band" test |
+
+<p>
+  <img src="ai-agent-production/pages/page-04.jpg" alt="Fix 2: Queue" width="240" />
+  <img src="ai-agent-production/pages/page-06.jpg" alt="Fix 3: Idempotency and human-in-the-loop" width="240" />
+  <img src="ai-agent-production/pages/page-11.jpg" alt="Demo vs Production" width="240" />
 </p>
 
 ---
