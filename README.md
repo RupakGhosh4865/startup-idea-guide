@@ -7,6 +7,7 @@ Reels ke full detail versions — phone pe padhne ke liye, 11 pages each.
   <img src="rag-to-production/pages/page-01.jpg" alt="RAG to Production guide cover" width="260" />
   <img src="ai-agent-production/pages/page-01.jpg" alt="AI Agent Demo to Production guide cover" width="260" />
   <img src="website-to-google/pages/page-01.jpg" alt="Website Live to Google SEO guide cover" width="260" />
+  <img src="aeo-geo/pages/page-01.jpg" alt="AEO + GEO guide cover" width="260" />
 </p>
 
 ## 📄 Guides
@@ -17,6 +18,7 @@ Reels ke full detail versions — phone pe padhne ke liye, 11 pages each.
 | **RAG Demo se Production tak** — Evals · LLMOps · Guardrails · Agents | [Open PDF](rag-to-production/Billu-Bhaiya-RAG-to-Production-Guide.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/rag-to-production/) |
 | **AI Agent: Demo se Production tak** — 6 fixes + copy-paste code | [Open PDF](ai-agent-production/Billu-Bhaiya-AI-Agent-Production-Guide.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/ai-agent-production/) |
 | **Website Live se Google tak** — SEO: audit, fix, speed, Search Console, Bing, ranking | [Open PDF](website-to-google/Billu-Bhaiya-Website-to-Google-SEO-Guide.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/website-to-google/) |
+| **AI Answers mein tumhara Brand** — AEO + GEO: ChatGPT, Perplexity, Gemini, Copilot | [Open PDF](aeo-geo/Billu-Bhaiya-AEO-GEO-Guide.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/aeo-geo/) |
 
 ## 1 · Startup Idea se Paying Customer tak
 
@@ -94,6 +96,25 @@ Website live hai par Google pe nahi dikhti? **Live ≠ Indexed ≠ Ranked** — 
   <img src="website-to-google/pages/page-02.jpg" alt="Live, Indexed, Ranked" width="240" />
   <img src="website-to-google/pages/page-07.jpg" alt="Google Search Console" width="240" />
   <img src="website-to-google/pages/page-09.jpg" alt="Ranking with Performance report" width="240" />
+</p>
+
+## 5 · AI Answers mein tumhara Brand (AEO + GEO)
+
+SEO ho gaya, phir bhi ChatGPT tumhara naam nahi leta? AI answers mein sirf ranking nahi — **brand mentions aur trusted sources** bhi chalte hain:
+
+| # | Step | Kya milta hai |
+| --- | --- | --- |
+| 1 | **Measure** | 30 buyer sawaal × 3 runs × ChatGPT / Perplexity / Gemini, prompt tracking sheet, mention rate |
+| 2 | **AI crawlers** | robots.txt: OAI-SearchBot, PerplexityBot, GPTBot (training alag); content raw HTML mein |
+| 3 | **Answer first** | Heading mein sawaal, 40–60 words mein jawab, phir stats + source |
+| 4 | **Trust** | Reddit, YouTube, review sites — asli mentions, fake reviews nahi |
+| 5 | **Prove** | Har hafte wahi sawaal; Bing AI Performance, Search Console, GA4 regex; 1 change, 4 hafte |
+| ★ | **llms.txt** | Optional — pehle basics |
+
+<p>
+  <img src="aeo-geo/pages/page-03.jpg" alt="Measure" width="240" />
+  <img src="aeo-geo/pages/page-04.jpg" alt="AI crawlers" width="240" />
+  <img src="aeo-geo/pages/page-09.jpg" alt="Prove" width="240" />
 </p>
 
 ---
