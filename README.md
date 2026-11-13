@@ -8,6 +8,7 @@ Reels ke full detail versions — phone pe padhne ke liye, 11 pages each.
   <img src="ai-agent-production/pages/page-01.jpg" alt="AI Agent Demo to Production guide cover" width="260" />
   <img src="website-to-google/pages/page-01.jpg" alt="Website Live to Google SEO guide cover" width="260" />
   <img src="aeo-geo/pages/page-01.jpg" alt="AEO + GEO guide cover" width="260" />
+  <img src="ai-agent-security/pages/page-01.jpg" alt="AI Agent Security guide cover" width="260" />
 </p>
 
 ## 📄 Guides
@@ -19,6 +20,7 @@ Reels ke full detail versions — phone pe padhne ke liye, 11 pages each.
 | **AI Agent: Demo se Production tak** — 6 fixes + copy-paste code | [Open PDF](ai-agent-production/Billu-Bhaiya-AI-Agent-Production-Guide.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/ai-agent-production/) |
 | **Website Live se Google tak** — SEO: audit, fix, speed, Search Console, Bing, ranking | [Open PDF](website-to-google/Billu-Bhaiya-Website-to-Google-SEO-Guide.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/website-to-google/) |
 | **AI Answers mein tumhara Brand** — AEO + GEO: ChatGPT, Perplexity, Gemini, Copilot | [Open PDF](aeo-geo/Billu-Bhaiya-AEO-GEO-Guide.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/aeo-geo/) |
+| **Login ≠ Permission: AI Agent Security** — URL · npm · lethal trifecta · blast radius | [Open PDF](ai-agent-security/Billu-Bhaiya-AI-Agent-Security-Guide.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/ai-agent-security/) |
 
 ## 1 · Startup Idea se Paying Customer tak
 
@@ -115,6 +117,23 @@ SEO ho gaya, phir bhi ChatGPT tumhara naam nahi leta? AI answers mein sirf ranki
   <img src="aeo-geo/pages/page-03.jpg" alt="Measure" width="240" />
   <img src="aeo-geo/pages/page-04.jpg" alt="AI crawlers" width="240" />
   <img src="aeo-geo/pages/page-09.jpg" alt="Prove" width="240" />
+</p>
+
+## 6 · Login ≠ Permission: AI Agent Security
+
+Client ki site pe HTTPS, MFA, rate limit — sab green. Phir bhi AI agent ne saare customers ka data bhej diya. Kyunki **login identity check hai, permission nahi**:
+
+| Level | Kya hua | Fix |
+| --- | --- | --- |
+| 1 | **URL badlo** — invoice/123 → 124 (IDOR / BOLA) | Har request pe server-side ownership check + Postgres Row-Level Security |
+| 2 | **npm package** — Shai-Hulud: install scripts se tokens chori | Release cooldown, approved build scripts, GitHub push protection, short-lived tokens |
+| 3 | **AI agent** — lethal trifecta: private data + untrusted content + bahar bhejna | Ek leg hatao; least-privilege tools, human approval, audit logs, kill switch |
+| ★ | **Blast radius** | Maan lo agent compromise hoga — read-only role, row limits, network allowlist |
+
+<p>
+  <img src="ai-agent-security/pages/page-03.jpg" alt="Level 1: ownership check" width="240" />
+  <img src="ai-agent-security/pages/page-05.jpg" alt="Level 2: npm" width="240" />
+  <img src="ai-agent-security/pages/page-07.jpg" alt="Level 3: lethal trifecta" width="240" />
 </p>
 
 ---
