@@ -16,13 +16,13 @@ Reels ke full detail versions — phone pe padhne ke liye, 11 pages each.
 
 | Guide | PDF | Web |
 | --- | --- | --- |
-| **Startup Idea se Paying Customer tak** — pehle market, phir code | [Open PDF](Billu-Bhaiya-Startup-Idea-Guide.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/) |
-| **RAG Demo se Production tak** — Evals · LLMOps · Guardrails · Agents | [Open PDF](rag-to-production/Billu-Bhaiya-RAG-to-Production-Guide.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/rag-to-production/) |
-| **AI Agent: Demo se Production tak** — 6 fixes + copy-paste code | [Open PDF](ai-agent-production/Billu-Bhaiya-AI-Agent-Production-Guide.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/ai-agent-production/) |
-| **Website Live se Google tak** — SEO: audit, fix, speed, Search Console, Bing, ranking | [Open PDF](website-to-google/Billu-Bhaiya-Website-to-Google-SEO-Guide.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/website-to-google/) |
-| **AI Answers mein tumhara Brand** — AEO + GEO: ChatGPT, Perplexity, Gemini, Copilot | [Open PDF](aeo-geo/Billu-Bhaiya-AEO-GEO-Guide.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/aeo-geo/) |
-| **Login ≠ Permission: AI Agent Security** — URL · npm · lethal trifecta · blast radius | [Open PDF](ai-agent-security/Billu-Bhaiya-AI-Agent-Security-Guide.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/ai-agent-security/) |
-| **Kaunsa Frontend Stack?** — padhenge ya operate: Astro · Next.js · Vite · Angular · WordPress · UI layers | [Open PDF](frontend-stack/Billu-Bhaiya-Frontend-Stack-Guide.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/frontend-stack/) |
+| **Startup Idea se Paying Customer tak** — pehle market, phir code | [Free PDF](https://upaaylabs.com/learn/startup-idea.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/) |
+| **RAG Demo se Production tak** — Evals · LLMOps · Guardrails · Agents | [Free PDF](https://upaaylabs.com/learn/rag-to-production.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/rag-to-production/) |
+| **AI Agent: Demo se Production tak** — 6 fixes + copy-paste code | [Free PDF](https://upaaylabs.com/learn/ai-agent-production.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/ai-agent-production/) |
+| **Website Live se Google tak** — SEO: audit, fix, speed, Search Console, Bing, ranking | [Free PDF](https://upaaylabs.com/learn/website-to-google.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/website-to-google/) |
+| **AI Answers mein tumhara Brand** — AEO + GEO: ChatGPT, Perplexity, Gemini, Copilot | [Free PDF](https://upaaylabs.com/learn/aeo-geo.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/aeo-geo/) |
+| **Login ≠ Permission: AI Agent Security** — URL · npm · lethal trifecta · blast radius | [Free PDF](https://upaaylabs.com/learn/ai-agent-security.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/ai-agent-security/) |
+| **Kaunsa Frontend Stack?** — padhenge ya operate: Astro · Next.js · Vite · Angular · WordPress · UI layers | [Free PDF](https://upaaylabs.com/learn/frontend-stack.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/frontend-stack/) |
 
 ## 1 · Startup Idea se Paying Customer tak
 
