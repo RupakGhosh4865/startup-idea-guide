@@ -9,6 +9,7 @@ Reels ke full detail versions — phone pe padhne ke liye, 11 pages each.
   <img src="website-to-google/pages/page-01.jpg" alt="Website Live to Google SEO guide cover" width="260" />
   <img src="aeo-geo/pages/page-01.jpg" alt="AEO + GEO guide cover" width="260" />
   <img src="ai-agent-security/pages/page-01.jpg" alt="AI Agent Security guide cover" width="260" />
+  <img src="frontend-stack/pages/page-01.jpg" alt="Frontend Stack guide cover" width="260" />
 </p>
 
 ## 📄 Guides
@@ -21,6 +22,7 @@ Reels ke full detail versions — phone pe padhne ke liye, 11 pages each.
 | **Website Live se Google tak** — SEO: audit, fix, speed, Search Console, Bing, ranking | [Open PDF](website-to-google/Billu-Bhaiya-Website-to-Google-SEO-Guide.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/website-to-google/) |
 | **AI Answers mein tumhara Brand** — AEO + GEO: ChatGPT, Perplexity, Gemini, Copilot | [Open PDF](aeo-geo/Billu-Bhaiya-AEO-GEO-Guide.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/aeo-geo/) |
 | **Login ≠ Permission: AI Agent Security** — URL · npm · lethal trifecta · blast radius | [Open PDF](ai-agent-security/Billu-Bhaiya-AI-Agent-Security-Guide.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/ai-agent-security/) |
+| **Kaunsa Frontend Stack?** — padhenge ya operate: Astro · Next.js · Vite · Angular · WordPress · UI layers | [Open PDF](frontend-stack/Billu-Bhaiya-Frontend-Stack-Guide.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/frontend-stack/) |
 
 ## 1 · Startup Idea se Paying Customer tak
 
@@ -134,6 +136,26 @@ Client ki site pe HTTPS, MFA, rate limit — sab green. Phir bhi AI agent ne saa
   <img src="ai-agent-security/pages/page-03.jpg" alt="Level 1: ownership check" width="240" />
   <img src="ai-agent-security/pages/page-05.jpg" alt="Level 2: npm" width="240" />
   <img src="ai-agent-security/pages/page-07.jpg" alt="Level 3: lethal trifecta" width="240" />
+</p>
+
+## 7 · Kaunsa Frontend Stack?
+
+Claude bhi Next.js bolta hai, ChatGPT bhi — par har project Next.js nahi. Asli sawaal: **users padhenge ya operate karenge?**
+
+| Project | Stack | Kyun |
+| --- | --- | --- |
+| Portfolio · Blog · Docs | **Astro** | 0 JS by default; JS sirf interactive islands |
+| Dashboard · Login (+ SEO pages) | **Next.js** | Server Components + "use client" sirf jahan zaroori |
+| App, SEO nahi chahiye | **Vite + React** | Static SPA, simple deploy |
+| Enterprise team portal | **Angular** | Ek structure, poori team |
+| Client khud content edit | **WordPress** | Bina developer ke content |
+| 1-page landing | **Plain HTML/CSS/JS** | Koi build step nahi |
+| UI | **shadcn/ui · Aceternity UI · Motion · GSAP** | Components + animation; 1 element = 1 library |
+
+<p>
+  <img src="frontend-stack/pages/page-03.jpg" alt="Decision flow" width="240" />
+  <img src="frontend-stack/pages/page-07.jpg" alt="UI layers" width="240" />
+  <img src="frontend-stack/pages/page-10.jpg" alt="AI prompt" width="240" />
 </p>
 
 ---
