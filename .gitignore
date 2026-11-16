@@ -1,0 +1,3 @@
+# Guide PDFs never go in this public repo: they live in the private repo
+# RupakGhosh4865/startup-idea-guide-pdfs (see CLAUDE.md).
+*.pdf
