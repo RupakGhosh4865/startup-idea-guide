@@ -10,6 +10,7 @@ Reels ke full detail versions — phone pe padhne ke liye, 11 pages each.
   <img src="aeo-geo/pages/page-01.jpg" alt="AEO + GEO guide cover" width="260" />
   <img src="ai-agent-security/pages/page-01.jpg" alt="AI Agent Security guide cover" width="260" />
   <img src="frontend-stack/pages/page-01.jpg" alt="Frontend Stack guide cover" width="260" />
+  <img src="backend-stack/pages/page-01.jpg" alt="Backend Stack guide cover" width="260" />
 </p>
 
 ## 📄 Guides
@@ -23,6 +24,7 @@ Reels ke full detail versions — phone pe padhne ke liye, 11 pages each.
 | **AI Answers mein tumhara Brand** — AEO + GEO: ChatGPT, Perplexity, Gemini, Copilot | [Free PDF](https://upaaylabs.com/learn/aeo-geo.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/aeo-geo/) |
 | **Login ≠ Permission: AI Agent Security** — URL · npm · lethal trifecta · blast radius | [Free PDF](https://upaaylabs.com/learn/ai-agent-security.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/ai-agent-security/) |
 | **Kaunsa Frontend Stack?** — padhenge ya operate: Astro · Next.js · Vite · Angular · WordPress · UI layers | [Free PDF](https://upaaylabs.com/learn/frontend-stack.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/frontend-stack/) |
+| **Kaunsa Backend Stack?** — kaam + team: FastAPI · Django · Node.js · Spring Boot · Go · Rust · Postgres · Redis · REST · gRPC | [Free PDF](https://upaaylabs.com/learn/backend-stack.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/backend-stack/) |
 
 ## 1 · Startup Idea se Paying Customer tak
 
@@ -156,6 +158,26 @@ Claude bhi Next.js bolta hai, ChatGPT bhi — par har project Next.js nahi. Asli
   <img src="frontend-stack/pages/page-03.jpg" alt="Decision flow" width="240" />
   <img src="frontend-stack/pages/page-07.jpg" alt="UI layers" width="240" />
   <img src="frontend-stack/pages/page-10.jpg" alt="AI prompt" width="240" />
+</p>
+
+## 8 · Kaunsa Backend Stack?
+
+App pe 0 users aur AI bolta hai: microservices, Kubernetes, Kafka. Par Prime Video ki ek team ne ulta kiya — microservices se monolith, infra cost 90%+ kam. Asli sawaal: **kaam kya hai, team kya jaanti hai?**
+
+| Kaam | Stack | Kyun |
+| --- | --- | --- |
+| AI · RAG · ML | **FastAPI** | Python ecosystem, async, auto docs |
+| Product + admin panel | **Django** | Auth, ORM, admin built-in |
+| JS / TS team, web API | **Node.js** — Express · NestJS · Hono | Node = runtime; simple · structured · edge |
+| Enterprise, Java team | **Spring Boot** | Security, JPA, enterprise integrations |
+| High concurrency | **Go** | Goroutines, single binary |
+| Maximum performance | **Rust + Axum** | Memory safety bina GC; learning curve steep |
+| 3 layers | **Postgres + Redis · REST + gRPC · Modular monolith** | Data, API, architecture — microservices tab, jab sach mein chahiye |
+
+<p>
+  <img src="backend-stack/pages/page-03.jpg" alt="Kaam + Team quick round" width="240" />
+  <img src="backend-stack/pages/page-09.jpg" alt="Modular monolith pehle" width="240" />
+  <img src="backend-stack/pages/page-10.jpg" alt="AI prompt" width="240" />
 </p>
 
 ---
