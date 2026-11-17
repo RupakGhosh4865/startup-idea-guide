@@ -11,6 +11,7 @@ Reels ke full detail versions — phone pe padhne ke liye, 11 pages each.
   <img src="ai-agent-security/pages/page-01.jpg" alt="AI Agent Security guide cover" width="260" />
   <img src="frontend-stack/pages/page-01.jpg" alt="Frontend Stack guide cover" width="260" />
   <img src="backend-stack/pages/page-01.jpg" alt="Backend Stack guide cover" width="260" />
+  <img src="agentic-ai-survival/pages/page-01.jpg" alt="Agentic AI Survival guide cover" width="260" />
 </p>
 
 ## 📄 Guides
@@ -25,6 +26,7 @@ Reels ke full detail versions — phone pe padhne ke liye, 11 pages each.
 | **Login ≠ Permission: AI Agent Security** — URL · npm · lethal trifecta · blast radius | [Free PDF](https://upaaylabs.com/learn/ai-agent-security.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/ai-agent-security/) |
 | **Kaunsa Frontend Stack?** — padhenge ya operate: Astro · Next.js · Vite · Angular · WordPress · UI layers | [Free PDF](https://upaaylabs.com/learn/frontend-stack.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/frontend-stack/) |
 | **Kaunsa Backend Stack?** — kaam + team: FastAPI · Django · Node.js · Spring Boot · Go · Rust · Postgres · Redis · REST · gRPC | [Free PDF](https://upaaylabs.com/learn/backend-stack.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/backend-stack/) |
+| **Agentic AI Project Kaise Bachaye?** — Gartner ka 40% cancel: Value · Cost · Risk rules + SURVIVE checklist | [Free PDF](https://upaaylabs.com/learn/agentic-ai-survival.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/agentic-ai-survival/) |
 
 ## 1 · Startup Idea se Paying Customer tak
 
@@ -178,6 +180,23 @@ App pe 0 users aur AI bolta hai: microservices, Kubernetes, Kafka. Par Prime Vid
   <img src="backend-stack/pages/page-03.jpg" alt="Kaam + Team quick round" width="240" />
   <img src="backend-stack/pages/page-09.jpg" alt="Modular monolith pehle" width="240" />
   <img src="backend-stack/pages/page-10.jpg" alt="AI prompt" width="240" />
+</p>
+
+## 9 · Agentic AI Project Kaise Bachaye?
+
+Client ne agentic AI project approve kar diya — par Gartner (June 2025) kehta hai 2027 ke end tak **40% se zyada agentic AI projects cancel** honge: badhti cost, unclear business value, kamzor risk controls. List mein model quality hai hi nahi.
+
+| Rule | Kya karo | Kyun |
+| --- | --- | --- |
+| 1 · **Value** | Code se pehle number: kitne tickets solve, kitne ghante bache | Number nahi, toh project nahi |
+| 2 · **Cost** | Har task ka token budget + step limit; track **cost per successful task** | Demo sasta hota hai, production nahi |
+| 3 · **Risk** | Tools ko least privilege; payment / delete / email pe human approval; launch se pehle evals + kill switch | Ek galat action = project band |
+| ? · **Agent ya nahi** | Decisions → agent · routine → automation · simple sawaal → assistant | Har cheez agent nahi banani |
+
+<p>
+  <img src="agentic-ai-survival/pages/page-04.jpg" alt="Value card" width="240" />
+  <img src="agentic-ai-survival/pages/page-07.jpg" alt="Least privilege + approval" width="240" />
+  <img src="agentic-ai-survival/pages/page-10.jpg" alt="SURVIVE checklist" width="240" />
 </p>
 
 ---
