@@ -1,6 +1,6 @@
 # Billu Bhaiya · Free Guides
 
-Reels ke full detail versions — phone pe padhne ke liye, 11 pages each.
+Reels ke full detail versions — phone pe padhne ke liye, 11–21 pages each.
 
 <p align="center">
   <img src="pages/page-01.jpg" alt="Startup Idea guide cover" width="260" />
@@ -12,6 +12,7 @@ Reels ke full detail versions — phone pe padhne ke liye, 11 pages each.
   <img src="frontend-stack/pages/page-01.jpg" alt="Frontend Stack guide cover" width="260" />
   <img src="backend-stack/pages/page-01.jpg" alt="Backend Stack guide cover" width="260" />
   <img src="agentic-ai-survival/pages/page-01.jpg" alt="Agentic AI Survival guide cover" width="260" />
+  <img src="genai-engineer-roadmap/pages/page-01.jpg" alt="GenAI Engineer Roadmap 2026 guide cover" width="260" />
 </p>
 
 ## 📄 Guides
@@ -27,6 +28,7 @@ Reels ke full detail versions — phone pe padhne ke liye, 11 pages each.
 | **Kaunsa Frontend Stack?** — padhenge ya operate: Astro · Next.js · Vite · Angular · WordPress · UI layers | [Free PDF](https://upaaylabs.com/learn/frontend-stack.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/frontend-stack/) |
 | **Kaunsa Backend Stack?** — kaam + team: FastAPI · Django · Node.js · Spring Boot · Go · Rust · Postgres · Redis · REST · gRPC | [Free PDF](https://upaaylabs.com/learn/backend-stack.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/backend-stack/) |
 | **Agentic AI Project Kaise Bachaye?** — Gartner ka 40% cancel: Value · Cost · Risk rules + SURVIVE checklist | [Free PDF](https://upaaylabs.com/learn/agentic-ai-survival.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/agentic-ai-survival/) |
+| **GenAI Engineer Roadmap 2026** — 8 levels (Python se LoRA tak) · 3 projects · 31 reported interview sawaal · 90-din plan | [Free PDF](https://upaaylabs.com/learn/genai-engineer-roadmap.pdf) | [Read online](https://rupakghosh4865.github.io/startup-idea-guide/genai-engineer-roadmap/) |
 
 ## 1 · Startup Idea se Paying Customer tak
 
@@ -197,6 +199,28 @@ Client ne agentic AI project approve kar diya — par Gartner (June 2025) kehta 
   <img src="agentic-ai-survival/pages/page-04.jpg" alt="Value card" width="240" />
   <img src="agentic-ai-survival/pages/page-07.jpg" alt="Least privilege + approval" width="240" />
   <img src="agentic-ai-survival/pages/page-10.jpg" alt="SURVIVE checklist" width="240" />
+</p>
+
+## 10 · GenAI Engineer Roadmap 2026
+
+10 GenAI jobs, sirf 1 ready engineer (TeamLease Digital). Ready ka matlab: AI use karna nahi — **AI ko production mein chalana**. 8 levels, har level ka proof:
+
+| Level | Kya seekhna | Proof (bana ke dikhao) |
+| --- | --- | --- |
+| L1 | **Basics** — Python async + APIs, Git, SQL, backend, DSA | FastAPI service jo 3 APIs parallel call kare |
+| L2 | **LLM andar se** — tokens, context, sampling, embeddings, limits | Token + cost calculator |
+| L3 | **Prompts** — system prompt, JSON output, tool calling, streaming | Text → validated JSON extractor |
+| L4 | **RAG** — chunking, hybrid search, rerank, citations | Docs Q&A with citations |
+| L5 | **Evals** (most skipped) — test set, recall@k, faithfulness, LLM-judge | Eval report: before vs after |
+| L6 | **Agents** — workflow vs agent, tools, memory, approval, MCP | Support agent + approval step |
+| L7 | **Production** — deploy, latency, cost, tracing, guardrails, security | Live URL + trace dashboard |
+| L8 | **Fine-tuning** — LoRA / QLoRA, sirf jab prompt + RAG kaafi na ho | LoRA vs prompt comparison |
+| ★ | 3 galtiyan · 3 portfolio projects · 31 reported interview sawaal · 90-din plan | |
+
+<p>
+  <img src="genai-engineer-roadmap/pages/page-03.jpg" alt="The map: 8 levels" width="240" />
+  <img src="genai-engineer-roadmap/pages/page-09.jpg" alt="Level 5: Evals" width="240" />
+  <img src="genai-engineer-roadmap/pages/page-16.jpg" alt="Reported interview sawaal: RAG" width="240" />
 </p>
 
 ---

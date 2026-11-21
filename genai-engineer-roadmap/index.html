@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GenAI Engineer Roadmap 2026 · Billu Bhaiya</title>
+  <meta name="description" content="Billu Bhaiya ka free GenAI Engineer Roadmap guide: 8 levels (Python se LoRA tak), 3 portfolio projects, 31 reported interview sawaal + 90-din plan." />
+  <meta name="upaay:date" content="2026-11-21" />
+  <meta property="og:title" content="GenAI Engineer Roadmap 2026 — Free Guide" />
+  <meta property="og:description" content="10 GenAI jobs, sirf 1 ready engineer. 8 levels, 3 projects, 31 reported interview sawaal aur 90-din plan. (PDF)" />
+  <meta property="og:image" content="pages/page-01.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root { --ink: #1d1a2b; --red: #e8452c; --green: #1fa37a; --blue: #2f6fdb; --turmeric: #ffcf4a; --paper: #fbfaf7; --grey: #5b5770; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: "Baloo 2", system-ui, sans-serif; background: var(--paper); color: var(--ink); line-height: 1.45; }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 0 16px; }
+    header { background: var(--turmeric); border-bottom: 5px solid var(--ink); padding: 40px 0 34px; }
+    .back { display: inline-block; font-weight: 700; color: var(--ink); margin-bottom: 14px; }
+    .badge { display: inline-block; background: var(--ink); color: #fff; font-weight: 800; font-size: 14px; letter-spacing: 1px; padding: 4px 14px; border-radius: 20px; }
+    h1 { font-size: clamp(36px, 8vw, 60px); line-height: 1.02; margin: 16px 0 10px; font-weight: 800; }
+    h1 span { color: var(--red); }
+    .sub { font-size: 20px; font-weight: 600; }
+    .sub b { font-weight: 800; }
+    .btns { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 22px; }
+    .btn { display: inline-flex; align-items: center; gap: 8px; font-weight: 800; font-size: 18px; text-decoration: none; color: var(--ink); background: #fff; border: 4px solid var(--ink); border-radius: 16px; padding: 10px 20px; box-shadow: 0 6px 0 var(--ink); }
+    .btn.primary { background: var(--red); color: #fff; }
+    .btn:active { transform: translateY(4px); box-shadow: 0 2px 0 var(--ink); }
+    section { padding: 34px 0 6px; }
+    h2 { font-size: 28px; font-weight: 800; margin-bottom: 14px; }
+    .steps { list-style: none; display: grid; gap: 10px; }
+    .steps li { display: flex; gap: 12px; align-items: center; background: #fff; border: 3px solid var(--ink); border-radius: 30px; padding: 6px 12px; font-weight: 600; }
+    .n { flex: none; width: 34px; height: 34px; border-radius: 50%; background: var(--ink); color: #fff; display: grid; place-items: center; font-weight: 800; }
+    .steps b { font-weight: 800; }
+    .pages { display: grid; gap: 18px; }
+    .pages img { width: 100%; height: auto; border: 4px solid var(--ink); border-radius: 18px; box-shadow: 0 8px 0 rgba(29, 26, 43, 0.15); display: block; background: #fff; }
+    footer { margin: 40px 0 0; padding: 26px 0 40px; border-top: 3px solid #e3e0d6; color: var(--grey); font-size: 16px; }
+    footer a { color: var(--ink); font-weight: 700; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="back" href="https://upaaylabs.com/learn">← Saare guides</a><br />
+      <span class="badge">BILLU BHAIYA · FREE GUIDE · ROADMAP</span>
+      <h1>GenAI Engineer <span>Roadmap 2026</span></h1>
+      <p class="sub"><b>10 GenAI jobs, sirf 1 ready engineer.</b> Ready ka matlab: AI use karna nahi — AI ko production mein chalana. 8 levels, 3 projects, 31 reported interview sawaal aur 90-din plan.</p>
+      <!-- PDF buttons go through https://upaaylabs.com/learn/<folder>.pdf (free, email popup). For a new guide, change <folder>. -->
+      <div class="btns">
+        <a class="btn primary" href="https://upaaylabs.com/learn/genai-engineer-roadmap.pdf">⬇ Download PDF</a>
+        <a class="btn" href="https://upaaylabs.com/learn/genai-engineer-roadmap.pdf?view=1" target="_blank" rel="noopener">Open PDF</a>
+        <a class="btn" href="https://upaaylabs.com/learn#quiz">🏆 Free quiz khelo</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <h2>Ek nazar mein</h2>
+      <ol class="steps">
+        <li><span class="n">1</span><span><b>The map</b> — 8 levels ek nazar mein, aur har level ka proof: ek chhoti cheez jo bana ke dikha sako</span></li>
+        <li><span class="n" style="background: var(--blue)">2</span><span><b>L1–L3 Basics</b> — Python async + APIs, LLM andar se (tokens, embeddings, cost), prompts → validated JSON</span></li>
+        <li><span class="n" style="background: var(--green)">3</span><span><b>L4–L6 AI core</b> — RAG (hybrid + rerank + citations), Evals (most skipped), Agents (approval, MCP)</span></li>
+        <li><span class="n" style="background: var(--red)">4</span><span><b>L7–L8 Job-ready</b> — Production (latency, cost, tracing, security), Fine-tuning (LoRA / QLoRA)</span></li>
+        <li><span class="n">5</span><span><b>3 galtiyan + 3 projects</b> — kaunse job titles search karo, aur README template</span></li>
+        <li><span class="n">6</span><span><b>31 interview sawaal</b> — candidate reports (2025–26) se, har ek ka answer outline</span></li>
+        <li style="background: #93ddb9"><span class="n" style="background: var(--green)">★</span><span><b>90-din plan</b> — week by week, har 2 hafte ek shipped cheez</span></li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Poora guide (21 pages)</h2>
+      <div class="pages">
+        <img src="pages/page-01.jpg" alt="Cover: GenAI Engineer Roadmap 2026" width="720" height="1280" />
+        <img src="pages/page-02.jpg" alt="10 GenAI jobs, sirf 1 ready engineer: TeamLease data aur guide ka index" width="720" height="1280" loading="lazy" />
+        <img src="pages/page-03.jpg" alt="The map: 8 levels, kya seekhna aur har level ka proof" width="720" height="1280" loading="lazy" />
+        <img src="pages/page-04.jpg" alt="Level 1 Basics: Python async, timeout aur retry ka code" width="720" height="1280" loading="lazy" />
+        <img src="pages/page-05.jpg" alt="Level 2: LLM andar se — tokens, context, sampling, embeddings, cost" width="720" height="1280" loading="lazy" />
+        <img src="pages/page-06.jpg" alt="Level 3 Prompts: Pydantic se validated JSON output aur tool calling ka flow" width="720" height="1280" loading="lazy" />
+        <img src="pages/page-07.jpg" alt="Level 4 RAG: ingest aur query pipeline, hybrid search aur rank fusion" width="720" height="1280" loading="lazy" />
+        <img src="pages/page-08.jpg" alt="Level 4 Debug: sahi doc hai phir bhi galat jawab — 5 jagah se tootta hai" width="720" height="1280" loading="lazy" />
+        <img src="pages/page-09.jpg" alt="Level 5 Evals: test set, recall@k, faithfulness aur ship gate" width="720" height="1280" loading="lazy" />
+        <img src="pages/page-10.jpg" alt="Level 6 Agents: tools, memory, human approval, MCP aur step limit" width="720" height="1280" loading="lazy" />
+        <img src="pages/page-11.jpg" alt="Level 7 Production: deploy, latency, cost, tracing, guardrails, security" width="720" height="1280" loading="lazy" />
+        <img src="pages/page-12.jpg" alt="Level 8 Fine-tuning: kab karna, kab nahi, LoRA ka code" width="720" height="1280" loading="lazy" />
+        <img src="pages/page-13.jpg" alt="Freshers ki 3 galtiyan aur job titles jo search karne chahiye" width="720" height="1280" loading="lazy" />
+        <img src="pages/page-14.jpg" alt="Portfolio: 3 projects aur README template" width="720" height="1280" loading="lazy" />
+        <img src="pages/page-15.jpg" alt="Interview loop ke rounds aur system design answer ka skeleton" width="720" height="1280" loading="lazy" />
+        <img src="pages/page-16.jpg" alt="Reported interview sawaal 1 se 8: RAG" width="720" height="1280" loading="lazy" />
+        <img src="pages/page-17.jpg" alt="Reported interview sawaal 9 se 16: RAG decisions aur evals" width="720" height="1280" loading="lazy" />
+        <img src="pages/page-18.jpg" alt="Reported interview sawaal 17 se 23: agents aur production" width="720" height="1280" loading="lazy" />
+        <img src="pages/page-19.jpg" alt="Reported interview sawaal 24 se 31: fundamentals aur coding" width="720" height="1280" loading="lazy" />
+        <img src="pages/page-20.jpg" alt="90 din ka plan, week by week" width="720" height="1280" loading="lazy" />
+        <img src="pages/page-21.jpg" alt="AI use karna nahi, AI ko production mein chalana seekho — audit prompt aur sources" width="720" height="1280" loading="lazy" />
+      </div>
+      <div class="btns" style="margin-top: 26px">
+        <a class="btn primary" href="https://upaaylabs.com/learn/genai-engineer-roadmap.pdf">⬇ Download PDF</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      Made by Billu Bhaiya · <a href="https://github.com/RupakGhosh4865" target="_blank" rel="noopener">github.com/RupakGhosh4865</a> · <a href="https://upaaylabs.com/learn">Saare guides</a><br />
+      Sources: TeamLease Digital, Digital Skills &amp; Salary Primer FY25–26 (Aug 2025) aur FY26–27; OpenAI, "Why language models hallucinate" (Sept 2025); OWASP Top 10 for LLM Applications. Interview sawaal candidate reports ki compiled lists se hain (AI Engineering Insider, Nov 2026; PracHub, Aug 2026): wording approximate hai, aur company tag guarantee nahi. Example numbers illustrative hain.
+    </div>
+  </footer>
+</body>
+</html>
